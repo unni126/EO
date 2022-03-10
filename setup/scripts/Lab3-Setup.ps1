@@ -1,7 +1,7 @@
 ﻿echo off
 
 #set the variables
-Set-Variable -Name "basepath" -Value $PWD.Path
+Set-Variable -Name "basepath" -Value C:\apps
 
 Set-Variable -Name filebeatpath -Value ($basepath +"\filebeat")
 Set-Variable -Name logstashpath -Value ($basepath +"\logstash")
