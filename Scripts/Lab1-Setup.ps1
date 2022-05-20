@@ -46,7 +46,7 @@ if(![System.IO.Directory]::Exists($creditservicedir)){
 #Download prometheus
 if(![System.IO.Directory]::Exists($prometheusdir)){
     echo "Downloading prometheus"
-    Invoke-Webrequest https://github.com/prometheus/p rometheus/releases/download/v2.33.3/prometheus-2.33.3.windows-amd64.zip -Outfile prometheus.zip
+    Invoke-Webrequest https://github.com/prometheus/prometheus/releases/download/v2.33.3/prometheus-2.33.3.windows-amd64.zip -Outfile prometheus.zip
     echo "Done"
 }
 
